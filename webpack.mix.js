@@ -14,4 +14,4 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
-mix.browserSync('http://emersis_back.test/');
+mix.browserSync('http://chat-ea-web-BACK.test/');
